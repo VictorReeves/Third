@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<head>
+<style type="text/css">
+* {
+   margin:0;
+   padding:0;
+}
+body{
+   padding: 1em;
+}
+.nav ul{
+   list-style: none;
+   text-align: center;
+}
+.nav ul li{
+   border: 1px solid silver;
+   border-radius: 5px 5px 5px 5px;
+}
+.nav ul li ul li{
+   width: 120px;
+}
+.nav ul li ul{
+   display: none;
+}
+.nav ul li:hover ul {
+   display: block;
+}
+.nav ul>li {
+   line-height:24px;
+   border-bottom:dashed silver 1px;
+   font-size:0;
+   float:left;
+   width:120px;
+}
+.nav ul li a {
+   color:silver;
+   display:block;
+   width:120px;
+   height:24px;
+   font-size:1px;
+   text-align:center;
+   text-decoration: none;
+}
+.nav1{
+   position: relative;
+}
+.nav1 ul{
+   position: absolute;
+   left: 120px;
+   top:1em;
+}
+.nav1 ul li{
+   display: none;
+}
+.nav1:hover li{
+   display: block;
+}
+.nav ul li ul{
+   width: 120px;height: 1em;
+}
+</style>
+</head>
+<body>
+   <div class="nav">
+   	  <ul>
+   	  	<li><a href="#">桂花蒸红枣</a>
+   	  	   <ul>  	  	    
+   	  	  	  <li class="nav1"><a href="#">糖醋鲤鱼</a>
+   	  	  	     <ul>
+   	  	  	     	<li><a href="#">九转大肠</a></li>
+   	  	  	     	<li><a href="#">汤爆双脆</a></li>
+   	  	  	     	<li><a href="#">奶汤蒲菜</a></li>
+   	  	  	     	<li><a href="#">玉记扒鸡</a></li> 	  	  	     	
+   	  	  	     </ul>
+   	  	  	  </li>
+   	  	  	  <li class="nav1"><a href="#">济南烤鸭</a>
+                  <ul>
+   	  	  	     	<li><a href="#">锅贴</a></li>
+   	  	  	     	<li><a href="#">灌汤包</a></li>
+   	  	  	     	<li><a href="#">盘丝饼</a></li>
+   	  	  	     	<li><a href="#">糖稣煎饼</a></li>
+   	  	  	     </ul>
+   	  	  	  </li>
+   	  	  	  <li class="nav1"><a href="#">罗汉饼</a>
+                  <ul>
+   	  	  	     	<li><a href="#">金钱酥</a></li>
+   	  	  	     	<li><a href="#">清蒸蜜三刀</a></li>
+   	  	  	     	<li><a href="#">肉末海参</a></li>
+   	  	  	     	<li><a href="#">崂山菇炖鸡</a></li>
+   	  	  	     </ul>
+   	  	  	  </li>
+   	  	  	  <li class="nav1"><a href="#">东安子鸡</a>
+                  <ul>
+   	  	  	     	<li><a href="#">平江火焙鱼</a></li>
+   	  	  	     	<li><a href="#">腊味合蒸</a></li>
+   	  	  	     	<li><a href="#">湘宾春卷</a></li>
+   	  	  	     	<li><a href="#">冰糖湘莲</a></li>
+   	  	  	     </ul>
+   	  	  	  </li>
+   	  	   </ul>
+   	  	</li> 
+   	  	<li><a href="#">冰糖湘莲</a>
+            <ul>            
+              <li class="nav1"><a href="#">糖醋鲤鱼</a>
+                 <ul>
+                  <li><a href="#">九转大肠</a></li>
+                  <li><a href="#">汤爆双脆</a></li>
+                  <li><a href="#">奶汤蒲菜</a></li>
+                  <li><a href="#">玉记扒鸡</a></li>
+                  
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">济南烤鸭</a>
+                  <ul>
+                  <li><a href="#">锅贴</a></li>
+                  <li><a href="#">灌汤包</a></li>
+                  <li><a href="#">盘丝饼</a></li>
+                  <li><a href="#">糖稣煎饼</a></li>
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">罗汉饼</a>
+                  <ul>
+                  <li><a href="#">金钱酥</a></li>
+                  <li><a href="#">清蒸蜜三刀</a></li>
+                  <li><a href="#">肉末海参</a></li>
+                  <li><a href="#">崂山菇炖鸡</a></li>
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">东安子鸡</a>
+                  <ul>
+                  <li><a href="#">平江火焙鱼</a></li>
+                  <li><a href="#">腊味合蒸</a></li>
+                  <li><a href="#">湘宾春卷</a></li>
+                  <li><a href="#">冰糖湘莲</a></li>
+                 </ul>
+              </li>
+            </ul>
+         </li>
+   	  	<<li><a href="#">腌鲜鳜鱼</a>
+            <ul>            
+              <li class="nav1"><a href="#">糖醋鲤鱼</a>
+                 <ul>
+                  <li><a href="#">九转大肠</a></li>
+                  <li><a href="#">汤爆双脆</a></li>
+                  <li><a href="#">奶汤蒲菜</a></li>
+                  <li><a href="#">玉记扒鸡</a></li>
+                  
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">济南烤鸭</a>
+                  <ul>
+                  <li><a href="#">锅贴</a></li>
+                  <li><a href="#">灌汤包</a></li>
+                  <li><a href="#">盘丝饼</a></li>
+                  <li><a href="#">糖稣煎饼</a></li>
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">罗汉饼</a>
+                  <ul>
+                  <li><a href="#">金钱酥</a></li>
+                  <li><a href="#">清蒸蜜三刀</a></li>
+                  <li><a href="#">肉末海参</a></li>
+                  <li><a href="#">崂山菇炖鸡</a></li>
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">东安子鸡</a>
+                  <ul>
+                  <li><a href="#">平江火焙鱼</a></li>
+                  <li><a href="#">腊味合蒸</a></li>
+                  <li><a href="#">湘宾春卷</a></li>
+                  <li><a href="#">冰糖湘莲</a></li>
+                 </ul>
+              </li>
+            </ul>
+         </li>
+   	  	<li><a href="#">浏阳茴饼</a>
+            <ul>            
+              <li class="nav1"><a href="#">糖醋鲤鱼</a>
+                 <ul>
+                  <li><a href="#">九转大肠</a></li>
+                  <li><a href="#">汤爆双脆</a></li>
+                  <li><a href="#">奶汤蒲菜</a></li>
+                  <li><a href="#">玉记扒鸡</a></li>
+                  
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">济南烤鸭</a>
+                  <ul>
+                  <li><a href="#">锅贴</a></li>
+                  <li><a href="#">灌汤包</a></li>
+                  <li><a href="#">盘丝饼</a></li>
+                  <li><a href="#">糖稣煎饼</a></li>
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">罗汉饼</a>
+                  <ul>
+                  <li><a href="#">金钱酥</a></li>
+                  <li><a href="#">清蒸蜜三刀</a></li>
+                  <li><a href="#">肉末海参</a></li>
+                  <li><a href="#">崂山菇炖鸡</a></li>
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">东安子鸡</a>
+                  <ul>
+                  <li><a href="#">平江火焙鱼</a></li>
+                  <li><a href="#">腊味合蒸</a></li>
+                  <li><a href="#">湘宾春卷</a></li>
+                  <li><a href="#">冰糖湘莲</a></li>
+                 </ul>
+              </li>
+            </ul>
+         </li>
+   	  	<li><a href="#">麻仁奶糖</a>
+            <ul>            
+              <li class="nav1"><a href="#">糖醋鲤鱼</a>
+                 <ul>
+                  <li><a href="#">九转大肠</a></li>
+                  <li><a href="#">汤爆双脆</a></li>
+                  <li><a href="#">奶汤蒲菜</a></li>
+                  <li><a href="#">玉记扒鸡</a></li>
+                  
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">济南烤鸭</a>
+                  <ul>
+                  <li><a href="#">锅贴</a></li>
+                  <li><a href="#">灌汤包</a></li>
+                  <li><a href="#">盘丝饼</a></li>
+                  <li><a href="#">糖稣煎饼</a></li>
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">罗汉饼</a>
+                  <ul>
+                  <li><a href="#">金钱酥</a></li>
+                  <li><a href="#">清蒸蜜三刀</a></li>
+                  <li><a href="#">肉末海参</a></li>
+                  <li><a href="#">崂山菇炖鸡</a></li>
+                 </ul>
+              </li>
+              <li class="nav1"><a href="#">东安子鸡</a>
+                  <ul>
+                  <li><a href="#">平江火焙鱼</a></li>
+                  <li><a href="#">腊味合蒸</a></li>
+                  <li><a href="#">湘宾春卷</a></li>
+                  <li><a href="#">冰糖湘莲</a></li>
+                 </ul>
+              </li>
+            </ul>
+         </li>
+   	  	   </ul>
+   	  	</li> 
+   	  	
+   	  </ul>
+   </div>
+</body>
+</html>
+
+
